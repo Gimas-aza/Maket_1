@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/CSS/font-awesome.min.css">
+    <link rel="stylesheet" href="./public/CSS/Style.css">
+    <title>Web-development</title>
+</head>
+<body>
+    <header>
+        <menu>
+            <H2> <a href="">Your Logo</a></H2>
+            <div class="menu-flex">
+                <h3><a href="#">Home</a></h3>
+                <h3><a href="#About_us">About</a></h3>
+                <h3><a href="#Our_services">Servicing</a></h3>
+                <h3><a href="#Latest_works">Portfolio</a></h3>
+                <h3><a href="#Blog">Blog</a></h3>
+                <h3><a href="#Contact_us">Contact us</a></h3>
+                <i class="fa fa-search fa-lg" aria-hidden="true"></i>
+            </div>
+        </menu>
+        <div class="header-start">
+            <h1>Web development project</h1>
+            <p>Very suitable to support all web development projects</p>
+            <button class="butt_1">OUR SERVICES</button>
+            <button class="butt_2">HIRE IS NOW</button>
+            <a href="#About_us"><i class="fa fa-chevron-down fa-lg" aria-hidden="true"></i></a>
+        </div>
+    </header>
+    <main>
+        <div class="About_us" id="About_us">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+            <div class="about-flex">
+                <div class="internet">
+                    <img src="./public/IMG/internet.png" alt="">
+                    <h3>Awesome Icons</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                </div>
+                <div class="transfer">
+                    <img src="./public/IMG/transfer.png" alt="">
+                    <h3>One Page</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                </div>
+                <div class="head">
+                    <img src="./public/IMG/head.png" alt="">
+                    <h3>Fully Responsive</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                </div>
+            </div>
+        </div>
+        <div class="Our_services" id="Our_services">
+            <h2>Our Services</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+            <div class="Services_grid">
+                <div>
+                    <img src="./public/IMG/smartphone.png" alt="">
+                    <h3>Research</h3>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque
+                        corrupti quos.</p>
+                    <button>READ MORE</button>
+                </div>
+                <div>
+                    <img src="./public/IMG/smartphone.png" alt="">
+                    <h3>Portfolio</h3>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque
+                        corrupti quos.</p>
+                    <button>READ MORE</button>
+                </div>
+                <div>
+                    <img src="./public/IMG/smartphone.png" alt="">
+                    <h3>Support</h3>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque
+                        corrupti quos.</p>
+                    <button>READ MORE</button>
+                </div>
+                <div>
+                    <img src="./public/IMG/smartphone.png" alt="">
+                    <h3>Documentation</h3>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque
+                        corrupti quos.</p>
+                    <button>READ MORE</button>
+                </div>
+                <div>
+                    <img src="./public/IMG/smartphone.png" alt="">
+                    <h3>Development</h3>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque
+                        corrupti quos.</p>
+                    <button>READ MORE</button>
+                </div>
+                <div>
+                    <img src="./public/IMG/smartphone.png" alt="">
+                    <h3>Design</h3>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque
+                        corrupti quos.</p>
+                    <button>READ MORE</button>
+                </div>
+            </div>
+        </div>
+        <div class="Latest_works" id="Latest_works">
+            <h2>Latest Works</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+            <div class="Filter_flex">
+                <button id="button_all" onclick="filter('all')">ALL</button>
+                <button id="button_web_design" onclick="filter('web_design')">WEB DESIGN</button>
+                <button id="button_ui/ux_design" onclick="filter('ui/ux_design')">UI/UX DESIGN</button>
+                <button id="button_mockups" onclick="filter('mockups')">MOCKUPS</button>
+            </div>
+            <div class="Store_grid" id="store_grid">
+                <div class="Hand_Watch" id="ui/ux_design">
+                    <a href="">
+                        <h3>Hand Watch</h3>
+                        <p>ui/ux design</p>
+                    </a>
+                </div>
+                <div class="One_day" id="web_design">
+                    <a href="">
+                        <h3>One day pass</h3>
+                        <p>web design</p>
+                    </a>
+                </div>
+                <div class="t-shirt" id="mockups">
+                    <a href="">
+                        <h3>T-shirt</h3>
+                        <p>mockups</p>
+                    </a>
+                </div>
+                <div class="flask" id="mockups">
+                    <a href="">
+                        <h3>Flask</h3>
+                        <p>mockups</p>
+                    </a>
+                </div>
+                <div class="bottle" id="ui/ux_design">
+                    <a href="">
+                        <h3>Bottle</h3>
+                        <p>ui/ux design</p>
+                    </a>
+                </div>
+                <div class="package" id="web_design">
+                    <a href="">
+                        <h3>Package</h3>
+                        <p>web design</p>
+                    </a>
+                </div>
+            </div>
+            <button>VIEW ALL</button>
+        </div>
+        <div class="Pricing_plan" id="Pricing_plan">
+            <h2>Pricing Plan</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+            <div class="flex_price">
+                <div class="free_trail">
+                    <div class="price_list">
+                        <h3>Free Trail</h3>
+                        <p> <span class="currency">$</span> <span class="price">00</span> <span class="per">per month</span> </p>
+                    </div>
+
+                    <p>30 Free Trail</p>
+                    <p>5 Free Projects</p>
+                    <p>PHP 5 Enabled</p>
+                    <p>24/7 Suports</p>
+                    <button>Order Now</button>
+                </div>
+                <div class="basic">
+                    <div class="price_list">
+                        <h3>Basic</h3>
+                        <p> <span class="currency">$</span> <span class="price">50</span> <span class="per">per month</span> </p>
+                    </div>
+
+                    <p>30 Free Trail</p>
+                    <p>5 Free Projects</p>
+                    <p>PHP 5 Enabled</p>
+                    <p>24/7 Suports</p>
+                    <button>Order Now</button>
+                </div>
+                <div class="ultimates">
+                    <div class="price_list">
+                        <h3>Ultimates</h3>
+                        <p> <span class="currency">$</span> <span class="price">99</span> <span class="per">per month</span> </p>
+                    </div>
+
+                    <p>30 Free Trail</p>
+                    <p>5 Free Projects</p>
+                    <p>PHP 5 Enabled</p>
+                    <p>24/7 Suports</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="Our_team_member" id="Our_team_member">
+            <h2>Our Team Member</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+            <div class="flex_team">
+                <div>
+                    <img src="./public/IMG/Layer 8.jpg" alt="">
+                    <h3>John Doe</h3>
+                    <p>General Manager</p>
+                    <div class="kontact">
+                        <a href=""><div><i class="fa fa-facebook-f"></i></div></a>
+                        <a href=""><div><i class="fa fa-twitter"></i></div></a>
+                        <a href=""><div><i class="fa fa-comments"></i></div></a>
+                        <a href=""><div><i class="fa fa-dribbble"></i></div></a>
+                    </div>
+                </div>
+                <div>
+                    <img src="./public/IMG/Rounded Rectangle 1.jpg" alt="">
+                    <h3>Alexa Biru</h3>
+                    <p>Office Director</p>
+                    <div class="kontact">
+                        <a href=""><div><i class="fa fa-facebook-f"></i></div></a>
+                        <a href=""><div><i class="fa fa-twitter"></i></div></a>
+                        <a href=""><div><i class="fa fa-comments"></i></div></a>
+                        <a href=""><div><i class="fa fa-dribbble"></i></div></a>
+                    </div>
+                </div>
+                <div>
+                    <img src="./public/IMG/Rounded Rectangle 2.jpg" alt="">
+                    <h3>Ronobir sing</h3>
+                    <p>Admin</p>
+                    <div class="kontact">
+                        <a href=""><div><i class="fa fa-facebook-f"></i></div></a>
+                        <a href=""><div><i class="fa fa-twitter"></i></div></a>
+                        <a href=""><div><i class="fa fa-comments"></i></div></a>
+                        <a href=""><div><i class="fa fa-dribbble"></i></div></a>
+                    </div>
+                </div>
+            </div>
+            <div class="list-button">
+                <button id="list-1"></button> <button id="list-2"></button> <button id="list-3"></button>
+            </div>
+        </div>
+        <div class="Blog" id="Blog">
+            <h2>Blog</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+            <div class="flex_blog">
+                <div class="article">
+                    <img src="./public/IMG/Rectangle 17.jpg" alt="">
+                    <div>
+                        <h3><a href="">SEO Quis Vestibulum</a> </h3>
+                        <p class="teg"><i class="fa fa-calendar"></i> 14.07.2017</p>
+                        <p class="teg"><i class="fa fa-file-o"></i>  Development</p>
+                        <p class="text-blog">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+                    </div>
+                </div>
+                <div class="article">
+                    <img src="./public/IMG/Rectangle 18.jpg" alt="">
+                    <div>
+                        <h3><a href="">SEO Quis Vestibulum</a> </h3>
+                        <p class="teg"><i class="fa fa-calendar"></i> 14.07.2017</p>
+                        <p class="teg"><i class="fa fa-file-o"></i>  Development</p>
+                        <p class="text-blog">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+                    </div>
+                </div>
+                <div class="article">
+                    <img src="./public/IMG/Rectangle 19.jpg" alt="">
+                    <div>
+                        <h3><a href="">SEO Quis Vestibulum</a> </h3>
+                        <p class="teg"><i class="fa fa-calendar"></i> 14.07.2017</p>
+                        <p class="teg"><i class="fa fa-file-o"></i>  Development</p>
+                        <p class="text-blog">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+                    </div>
+                </div>
+            </div>
+            <button>MORE VIEW</button>
+        </div>
+        <div class="Contact_us" id="Contact_us">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+            <div class="flex_contact">
+                <div>
+                    <div class="ellipse-1"></div>
+                    <p>Nobinagar savar,Dhaka Bangladesh</p>
+                </div>
+                <div>
+                    <div class="ellipse-2"></div>
+                    <p>+8801743331996
+                        +8801928737807</p>
+                </div>
+                <div>
+                    <div class="ellipse-3"></div>
+                    <p>quickmasud@gmail.com
+                        quickmasud@yahoo.com</p>
+                </div>
+            </div>
+            <form action="" method="post">
+                <input name="name" type="text" placeholder="Your NAME">
+                <input name="email" type="email" placeholder="Your Email">
+                <br>
+                <textarea name="massege" placeholder="Write Massage"></textarea>
+                <br>
+                <input type="button" value="SEND">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <h3>All rights Reserved © 2017</h3>
+    </footer>
+    <!-- <script>
+        let anc = document.querySelectorAll('a[href*="#"]');
+        for (let item of anc) console.log(item);
+    </script> -->
+    <script type="text/javascript" src="./JS/filter.js"></script>
+</body>
+</html>
